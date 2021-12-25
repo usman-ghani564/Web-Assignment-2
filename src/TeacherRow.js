@@ -81,9 +81,7 @@ function TeacherRow(props) {
         </Col>
         <Col style={{display:"inline"}}>
         <p>      
-      
-        
-          <img className="i" alt="unable to download" src="https://cdn4.iconfinder.com/data/icons/business-office-17/512/10-512.png" alt="no image"/>
+          <img className="i" alt="unable to download" src="https://cdn4.iconfinder.com/data/icons/business-office-17/512/10-512.png"/>
           {row.noOfClients}
         </p>
         </Col>
