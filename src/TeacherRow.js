@@ -98,7 +98,7 @@ function TeacherRow(props) {
 
       <Row>
         {row.tags.map((tag)=>{
-          return <Col><a href="">{tag.title}</a></Col>
+          return <Col><a href="#">{tag.title}</a></Col>
         })}
          <Col> <a  style={{paddingBottom: "2px"}} href="">Acessibilty</a> </Col>
       </Row>
